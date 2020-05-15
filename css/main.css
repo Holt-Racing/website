@@ -1,0 +1,15 @@
+/****
+Holt Racing Main CSS File
+Author: Aurora Widawati
+Date Created: 15/05/2020
+Date Modified: 15/05/2020
+*****/
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  position: relative;
+}

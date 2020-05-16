@@ -118,14 +118,15 @@ body {
 
 /* Products & Carousel */
 #products {
-  background:var(--holtracing);
+  background:var(--holtracingbg);
   padding: 10vw;
+  font-family:var(--mainfont)
 }
 
 #products heading {
   font-family: var(--headerfont);
   font-size: 8vh;
-  color:var(--holtracingbg);
+  color:var(--holtracing);
   text-decoration: underline;
   text-align: center;
   display: block;
@@ -157,5 +158,81 @@ body {
 @media (min-width:767px) {
   .productsandserviceslist {
     display: none;
+  }
+}
+
+/* Contact Us bit */
+#contact {
+  background:var(--holtracing);
+  color:var(--holtracingbg);
+  font-family: var(--mainfont);
+  padding: 10vw;
+  text-align: center;
+}
+
+#contact heading {
+  font-family: var(--headerfont);
+  font-size: 8vh;
+  color:var(--holtracingbg);
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  margin-top: 0vw;
+  margin-bottom: 3.5vh;
+}
+
+.mediaicons a {
+  color:var(--holtracing);
+  text-decoration:none;
+  -moz-transition:0.5s all ease-in-out;
+  -webkit-transition:0.5s all ease-in-out;
+  transition:0.5s all ease-in-out;
+  -o-transition:0.5s all ease-in-out;
+}
+
+.mediaicons:hover a {
+  color:var(--holtracingbg);
+  text-decoration:none;
+  -moz-transition:0.5s all ease-in-out;
+  -webkit-transition:0.5s all ease-in-out;
+  transition:0.5s all ease-in-out;
+  -o-transition:0.5s all ease-in-out;
+}
+
+.mediaicons:hover {
+  background:var(--holtracing);
+  -moz-transition:0.5s all ease-in-out;
+  -webkit-transition:0.5s all ease-in-out;
+  transition:0.5s all ease-in-out;
+  -o-transition:0.5s all ease-in-out;
+}
+
+.mediaicons {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -o-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  -moz-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background: var(--holtracingbg);
+  text-align: center;
+  justify-content: center;
+  padding: 4vw;
+  width: 12vw;
+  height: 12vw;
+  font-size: 4vw;
+  color:var(--holtracing);
+  -moz-transition:0.5s all ease-in-out;
+  -webkit-transition:0.5s all ease-in-out;
+  transition:0.5s all ease-in-out;
+  -o-transition:0.5s all ease-in-out;
+}
+
+@media (max-width:500px) {
+  .mediaicons {
+    padding: 10vw;
+    width: 70vw;
+    height: 70vw;
+    font-size: 40vw;
+    margin-bottom: 5vh;
   }
 }

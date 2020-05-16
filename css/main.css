@@ -17,8 +17,9 @@ body {
 
 /* Defines accent colours & fonts for website */
 :root {
-  --holtracing:rgba(0,128,64,1);
+  --holtracing:rgba(92,159,167,1);
   --holtracingbg:rgba(244,244,244,1);
+  --holtracinggrey:rgba(54,53,49,1);
   --headerfont:'Montserrat', sans-serif;
   --normalfont:'Roboto', sans-serif;
 }
@@ -93,7 +94,7 @@ body {
   font-family: var(--headerfont);
   font-size: 8vh;
   color:var(--holtracing);
-  text-decoration: underline;
+
   text-align: center;
   display: block;
   font-weight: 700;
@@ -118,16 +119,17 @@ body {
 
 /* Products & Carousel */
 #products {
-  background:var(--holtracingbg);
+  background:var(--holtracinggrey);
   padding: 10vw;
-  font-family:var(--mainfont)
+  font-family:var(--mainfont);
+  color:var(--holtracingbg)
 }
 
 #products heading {
   font-family: var(--headerfont);
   font-size: 8vh;
   color:var(--holtracing);
-  text-decoration: underline;
+
   text-align: center;
   display: block;
   font-weight: 700;
@@ -174,7 +176,7 @@ body {
   font-family: var(--headerfont);
   font-size: 8vh;
   color:var(--holtracingbg);
-  text-decoration: underline;
+
   text-align: center;
   display: block;
   font-weight: 700;

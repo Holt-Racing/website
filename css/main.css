@@ -110,6 +110,10 @@ body {
   #intro p {
     font-size: 14px;
   }
+
+  #intro heading {
+    font-size: 5vh;
+  }
 }
 
 /* Products & Carousel */
@@ -133,8 +137,25 @@ body {
 .card-img-top {
   width: 286px;
   height: 180px;
+  text-align: center;
 }
 
 .productslist {
   padding: 2vw;
+}
+
+.productsandserviceslist {
+  padding: 2vw;
+}
+
+@media (max-width:767px) {
+  .productsmarquee {
+    display: none;
+  }
+}
+
+@media (min-width:767px) {
+  .productsandserviceslist {
+    display: none;
+  }
 }

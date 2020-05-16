@@ -23,7 +23,7 @@ body {
   --normalfont:'Roboto', sans-serif;
 }
 
-#navbar-example2 {
+.navbar-light {
   background:var(--holtracingbg);
   color:rgba(0,0,0,1)
 }
@@ -37,6 +37,7 @@ body {
   background-size: cover;
   padding: 10vw;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Site main info */
@@ -66,5 +67,47 @@ body {
   .holtracingmaininfo {
     font-size: 2vh;
     margin-top:30vh;
+  }
+}
+
+/* Company introduction jumbotron */
+#intro {
+  width: 100vw;
+  padding: 10vh;
+  background:var(--holtracingbg);
+}
+
+#intro p {
+  color:rgba(0,0,0,1);
+  font-family:var(--mainfont);
+  font-size: 20px;
+  text-align: justify;
+}
+
+#intro img {
+  width: 14vw;
+  float: left;
+}
+
+#intro heading {
+  font-family: var(--headerfont);
+  font-size: 8vh;
+  color:var(--holtracing);
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  margin-top: 0vw;
+  margin-bottom: 3.5vh;
+}
+
+@media (max-width:500px) {
+  #intro img {
+    width: 70vw;
+    margin-bottom: 3.5vh;
+  }
+
+  #intro p {
+    font-size: 14px;
   }
 }

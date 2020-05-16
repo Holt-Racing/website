@@ -111,3 +111,30 @@ body {
     font-size: 14px;
   }
 }
+
+/* Products & Carousel */
+#products {
+  background:var(--holtracing);
+  padding: 10vw;
+}
+
+#products heading {
+  font-family: var(--headerfont);
+  font-size: 8vh;
+  color:var(--holtracingbg);
+  text-decoration: underline;
+  text-align: center;
+  display: block;
+  font-weight: 700;
+  margin-top: 0vw;
+  margin-bottom: 3.5vh;
+}
+
+.card-img-top {
+  width: 286px;
+  height: 180px;
+}
+
+.productslist {
+  padding: 2vw;
+}

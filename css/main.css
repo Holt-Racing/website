@@ -14,22 +14,57 @@ body {
   position: relative;
 }
 
-/* Imports Google Fonts onto CSS */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
-
 
 /* Defines accent colours & fonts for website */
 :root {
   --holtracing:rgba(0,128,64,1);
   --holtracingbg:rgba(244,244,244,1);
   --headerfont:'Montserrat', sans-serif;
+  --normalfont:'Roboto', sans-serif;
+}
+
+#navbar-example2 {
+  background:var(--holtracingbg);
+  color:rgba(0,0,0,1)
 }
 
 /***** HEADER CUSTOMISATION *****/
 #home {
-  height: 50vh;
+  height: 100vh;
   background-image:url('../img/wade-lambert-headerimg.jpg');
   background-position: 50% 70%;
   background-attachment: fixed;
   background-size: cover;
+  padding: 10vw;
+  margin-top: 0;
+}
+
+/* Site main info */
+.holtracingmaininfo heading {
+  font-family: var(--headerfont);
+  font-size: 10vh;
+  color:var(--holtracing);
+  text-align: center;
+  display: block;
+  font-weight: 700;
+}
+.holtracingmaininfo {
+  background:rgba(244,244,244,0.8);
+  color:(0,0,0,1!important);
+  font-size: 3vh;
+  width: 80vw;
+  padding: 5vw;
+  text-align: center;
+  font-family: var(--normalfont);
+}
+
+/* Header responsiveness */
+@media (max-width:500px) {
+  .holtracingmaininfo heading {
+    font-size: 6vh;
+  }
+  .holtracingmaininfo {
+    font-size: 2vh;
+    margin-top:30vh;
+  }
 }

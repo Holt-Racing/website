@@ -14,7 +14,18 @@ body {
   position: relative;
 }
 
-/* Defines accent colour for website */
+/* Imports Google Fonts onto CSS */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto:ital,wght@0,400;0,500;1,400&display=swap');
+
+
+/* Defines accent colours & fonts for website */
 :root {
   --holtracing:rgba(0,128,64,1);
+  --holtracingbg:rgba(244,244,244,1);
+  --headerfont:rgba()
+}
+
+/***** HEADER CUSTOMISATION *****/
+#home {
+  height: 50vh;
 }

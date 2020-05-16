@@ -29,6 +29,15 @@ body {
   color:rgba(0,0,0,1)
 }
 
+/* Navbar customisation */
+.nav-link {
+    color:var(--holtracing);
+}
+
+.navbar-collapse a:hover {
+  color:var(--holtracing);
+}
+
 /***** HEADER CUSTOMISATION *****/
 #home {
   height: 100vh;
@@ -58,6 +67,7 @@ body {
   padding: 5vw;
   text-align: center;
   font-family: var(--normalfont);
+  outline: 1px solid var(--holtracing);
 }
 
 /* Header responsiveness */

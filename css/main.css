@@ -147,6 +147,11 @@ body {
   margin-bottom: 3.5vh;
 }
 
+.btn-primary {
+  background: var(--holtracing);
+  border: 1px solid var(--holtracing);
+}
+
 .card-img-top {
   width: 286px;
   height: 180px;

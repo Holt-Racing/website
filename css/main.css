@@ -41,7 +41,7 @@ body {
 /***** HEADER CUSTOMISATION *****/
 #home {
   height: 100vh;
-  background-image:url('../img/wade-lambert-headerimg.jpg');
+  background-image:url('../img/schematic.png');
   background-position: 50% 70%;
   background-attachment: fixed;
   background-size: cover;

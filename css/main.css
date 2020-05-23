@@ -45,7 +45,10 @@ body {
   background-position: 50% 70%;
   background-attachment: fixed;
   background-size: cover;
-  padding: 10vw;
+  padding-left: 10vw;
+  padding-right: 10vw;
+  padding-bottom: 5vw;
+  padding-top: 5vw;
   margin-top: 0;
   margin-bottom: 0;
 }

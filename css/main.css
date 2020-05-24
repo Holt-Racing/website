@@ -45,7 +45,7 @@ body {
   background-position: 50% 70%;
   background-attachment: fixed;
   background-size: cover;
-  padding: 20vh 10vw;
+  padding: 20vh 10vw 20vh 10vw;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -55,7 +55,7 @@ body {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 30vh;
+  height: 25vh;
   margin-bottom: 5vh;
 }
 
@@ -86,7 +86,7 @@ body {
   }
   .holtracingmaininfo {
     font-size: 2vh;
-    margin-top:30vh;
+    margin-top:5vh;
   }
 }
 

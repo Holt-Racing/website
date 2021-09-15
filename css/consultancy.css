@@ -1,3 +1,18 @@
+/*********** 
+Case Studies 
+***********/
+
 #case-studies {
     padding: 10vw;
 }
+
+#case-studies heading {
+    font-family: var(--headerfont);
+    font-size: 4rem;
+    color:var(--holtracing);
+    text-align: center;
+    display: block;
+    font-weight: 700;
+    margin-top: 0vw;
+    margin-bottom: 3.5vh;
+  }

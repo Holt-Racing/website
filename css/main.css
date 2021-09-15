@@ -1,8 +1,8 @@
 /****
-Holt Racing Main CSS File
-Author: Aurora Widawati
-Date Created: 15/05/2020
-Date Modified: 15/05/2020
+  Holt Racing Main CSS File
+  Author: Aurora Widawati
+  Date Created: 15/05/2020
+  Date Modified: 15/05/2020
 *****/
 
 html {
@@ -20,13 +20,15 @@ body {
   --holtracing:rgba(92,159,167,1);
   --holtracingbg:rgba(244,244,244,1);
   --holtracinggrey:rgba(54,53,49,1);
+  --holtracingblack: 11,11,11;
+  --holtracingwhite: 244,244,244;
   --headerfont:'Montserrat', sans-serif;
   --normalfont:'Roboto', sans-serif;
 }
 
 .navbar-light {
   background:var(--holtracingbg);
-  color:rgba(0,0,0,1)
+  color:rgba(var(--holtracingblack),1)
 }
 
 /* Navbar customisation */
@@ -70,7 +72,7 @@ body {
 }
 .holtracingmaininfo {
   background:rgba(244,244,244,0.8);
-  color:(0,0,0,1!important);
+  color:(var(--holtracingblack),1!important);
   font-size: 3vh;
   width: 80vw;
   padding: 5vw;
@@ -98,7 +100,7 @@ body {
 }
 
 #intro p {
-  color:rgba(0,0,0,1);
+  color:rgba(var(--holtracingblack),1);
   font-family:var(--mainfont);
   font-size: 20px;
   text-align: justify;
